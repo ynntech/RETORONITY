@@ -14,6 +14,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
     @IBOutlet weak var mapView: GMSMapView!
     var tappedMarker : GMSMarker?
     var customInfoWindow : CustomInfoWindow?
+    var customInfoWindow2 : CustomInfoWindow2?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
        
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude:  38.2187352, longitude: 140.5917818)
+    
         
         marker.title = "焼鳥 美濃"
         marker.map = self.mapView
@@ -29,6 +31,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         
         let marker2 = GMSMarker()
         marker2.position = CLLocationCoordinate2D(latitude: 38.2787352, longitude: 140.82)
+ 
         
         marker2.title = "Var Taro"
         marker2.map = self.mapView
@@ -42,22 +45,26 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         
         let marker4 = GMSMarker()
         marker4.position = CLLocationCoordinate2D(latitude: 38.1887352, longitude: 140.82)
-        
+   
         marker4.title = "牛タン 山田"
         marker4.map = self.mapView
         
         
         let marker5 = GMSMarker()
         marker5.position = CLLocationCoordinate2D(latitude: 38.2787352, longitude: 140.81)
-        
+   
         marker5.title = "喫茶 べんちゃん"
         marker5.map = self.mapView
         
         
         // Do any additional setup after loading the view.
         self.mapView.delegate = self
+    
         self.tappedMarker = GMSMarker()
+        
         self.customInfoWindow = CustomInfoWindow().loadView()
+        self.customInfoWindow2 = CustomInfoWindow2().loadView()
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -68,6 +75,8 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         NSLog("ようこそ！")
         tappedMarker = marker
         
+       
+       
         let position = marker.position
         mapView.animate(toLocation: position)
         let point = mapView.projection.point(for: position)
@@ -75,22 +84,40 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         let camera = GMSCameraUpdate.setTarget(newPoint)
         mapView.animate(with: camera)
         
-        let opaqueWhite = UIColor(white: 1, alpha: 0.85)
-        customInfoWindow?.layer.backgroundColor = opaqueWhite.cgColor
-        customInfoWindow?.layer.cornerRadius = 8
-        customInfoWindow?.center = mapView.projection.point(for: position)
-        self.mapView.addSubview(customInfoWindow!)
+        
+        
+        
+        
+        if ( marker.title == "焼鳥 美濃"){
+            NSLog("焼鳥 美濃")
+            let opaqueWhite = UIColor(white: 1, alpha: 0.85)
+            customInfoWindow?.layer.backgroundColor = opaqueWhite.cgColor
+            customInfoWindow?.layer.cornerRadius = 8
+            customInfoWindow?.center = mapView.projection.point(for: position)
+            self.mapView.addSubview(customInfoWindow!)
+            
+        }else{
+            let opaqueWhite = UIColor(white: 1, alpha: 0.85)
+            customInfoWindow2?.layer.backgroundColor = opaqueWhite.cgColor
+            customInfoWindow2?.layer.cornerRadius = 8
+            customInfoWindow2?.center = mapView.projection.point(for: position)
+            self.mapView.addSubview(customInfoWindow2!)
+        }
         
         return false
     }
     
     func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
         customInfoWindow?.removeFromSuperview()
+        customInfoWindow2?.removeFromSuperview()
     }
     func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
         let position = tappedMarker?.position
         customInfoWindow?.center = mapView.projection.point(for: position!)
         customInfoWindow?.center.y -= 140
+        
+        customInfoWindow2?.center = mapView.projection.point(for: position!)
+        customInfoWindow2?.center.y -= 140
     }
     func mapView(_ mapView: GMSMapView, markerInfoWindow marker: GMSMarker) -> UIView? {
         //return self.customInfoWindow[
