@@ -16,6 +16,7 @@
 		D128189E22BDFED500470AA4 /* RETONITYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D128189D22BDFED500470AA4 /* RETONITYTests.swift */; };
 		D12818A922BDFED500470AA4 /* RETONITYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12818A822BDFED500470AA4 /* RETONITYUITests.swift */; };
 		D1B69EC222BEA178000D998B /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B69EC122BEA178000D998B /* CustomInfoWindow.xib */; };
+		D1BE502122BF0AD8008C5B5F /* S__26157069.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1BE502022BF0AD8008C5B5F /* S__26157069.jpg */; };
 		D1D5718622BEB474009194F3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D5718522BEB474009194F3 /* FirstViewController.swift */; };
 		D1D5718822BEB812009194F3 /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D5718722BEB812009194F3 /* CustomInfoWindow.swift */; };
 		D1E193A422BECACE002333AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E1939F22BECACE002333AC /* LaunchScreen.xib */; };
@@ -60,6 +61,7 @@
 		D12818A822BDFED500470AA4 /* RETONITYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETONITYUITests.swift; sourceTree = "<group>"; };
 		D12818AA22BDFED500470AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1B69EC122BEA178000D998B /* CustomInfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInfoWindow.xib; sourceTree = "<group>"; };
+		D1BE502022BF0AD8008C5B5F /* S__26157069.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = S__26157069.jpg; path = ../../../Downloads/S__26157069.jpg; sourceTree = "<group>"; };
 		D1D5718522BEB474009194F3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D1D5718722BEB812009194F3 /* CustomInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInfoWindow.swift; sourceTree = "<group>"; };
 		D1E1939F22BECACE002333AC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				D1B69EC122BEA178000D998B /* CustomInfoWindow.xib */,
 				D1D5718722BEB812009194F3 /* CustomInfoWindow.swift */,
 				D128188C22BDFED300470AA4 /* Main.storyboard */,
+				D1BE502022BF0AD8008C5B5F /* S__26157069.jpg */,
 				D128189122BDFED500470AA4 /* LaunchScreen.storyboard */,
 				D1D5718522BEB474009194F3 /* FirstViewController.swift */,
 				D1E1939E22BECACE002333AC /* shared */,
@@ -303,6 +306,7 @@
 			files = (
 				D1E193A422BECACE002333AC /* LaunchScreen.xib in Resources */,
 				D1B69EC222BEA178000D998B /* CustomInfoWindow.xib in Resources */,
+				D1BE502122BF0AD8008C5B5F /* S__26157069.jpg in Resources */,
 				D1E193A622BECACE002333AC /* Images.xcassets in Resources */,
 				D128189322BDFED500470AA4 /* LaunchScreen.storyboard in Resources */,
 				D1E193A522BECACE002333AC /* Bladefile in Resources */,
