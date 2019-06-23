@@ -83,11 +83,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         let newPoint = mapView.projection.coordinate(for: point)
         let camera = GMSCameraUpdate.setTarget(newPoint)
         mapView.animate(with: camera)
-        
-        
-        
-        
-        
+
         if ( marker.title == "焼鳥 美濃"){
             NSLog("焼鳥 美濃")
             let opaqueWhite = UIColor(white: 1, alpha: 0.85)
