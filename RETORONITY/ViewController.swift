@@ -15,7 +15,6 @@ class ViewController: UIViewController, GMSMapViewDelegate {
     var tappedMarker : GMSMarker?
     var customInfoWindow : CustomInfoWindow?
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let camera = GMSCameraPosition.camera(withLatitude: 38.2787352, longitude: 140.82,zoom: 10)
