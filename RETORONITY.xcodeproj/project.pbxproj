@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3679ED75F58BDE645F986C43 /* libPods-RETONITY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C6468B695B7F878255D744 /* libPods-RETONITY.a */; };
+		D128188922BDFED300470AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D128188822BDFED300470AA4 /* AppDelegate.swift */; };
+		D128188B22BDFED300470AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D128188A22BDFED300470AA4 /* ViewController.swift */; };
+		D128188E22BDFED300470AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D128188C22BDFED300470AA4 /* Main.storyboard */; };
+		D128189022BDFED500470AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D128188F22BDFED500470AA4 /* Assets.xcassets */; };
+		D128189322BDFED500470AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D128189122BDFED500470AA4 /* LaunchScreen.storyboard */; };
+		D128189E22BDFED500470AA4 /* RETONITYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D128189D22BDFED500470AA4 /* RETONITYTests.swift */; };
+		D12818A922BDFED500470AA4 /* RETONITYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12818A822BDFED500470AA4 /* RETONITYUITests.swift */; };
+		D1B69EC222BEA178000D998B /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B69EC122BEA178000D998B /* CustomInfoWindow.xib */; };
+		D1D5718622BEB474009194F3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D5718522BEB474009194F3 /* FirstViewController.swift */; };
+		D1D5718822BEB812009194F3 /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D5718722BEB812009194F3 /* CustomInfoWindow.swift */; };
+		D1E193A422BECACE002333AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E1939F22BECACE002333AC /* LaunchScreen.xib */; };
+		D1E193A522BECACE002333AC /* Bladefile in Resources */ = {isa = PBXBuildFile; fileRef = D1E193A022BECACE002333AC /* Bladefile */; };
+		D1E193A622BECACE002333AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E193A122BECACE002333AC /* Images.xcassets */; };
+		D1E193A722BECACE002333AC /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E193A322BECACE002333AC /* logo1024.png */; };
+		D1E193A922BEE4E1002333AC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E193A822BEE4E1002333AC /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D128189A22BDFED500470AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D128187D22BDFED300470AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D128188422BDFED300470AA4;
+			remoteInfo = RETONITY;
+		};
+		D12818A522BDFED500470AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D128187D22BDFED300470AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D128188422BDFED300470AA4;
+			remoteInfo = RETONITY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B68BF91C11312AD7B0E0319 /* Pods-RETONITY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETONITY.debug.xcconfig"; path = "Target Support Files/Pods-RETONITY/Pods-RETONITY.debug.xcconfig"; sourceTree = "<group>"; };
+		25C6468B695B7F878255D744 /* libPods-RETONITY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RETONITY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD0A97AF13A7B1A6EEE8BE /* Pods-RETONITY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETONITY.release.xcconfig"; path = "Target Support Files/Pods-RETONITY/Pods-RETONITY.release.xcconfig"; sourceTree = "<group>"; };
+		D128188522BDFED300470AA4 /* RETORONITY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RETORONITY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D128188822BDFED300470AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D128188A22BDFED300470AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D128188D22BDFED300470AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D128188F22BDFED500470AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D128189222BDFED500470AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D128189422BDFED500470AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D128189922BDFED500470AA4 /* RETORONITYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETORONITYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D128189D22BDFED500470AA4 /* RETONITYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETONITYTests.swift; sourceTree = "<group>"; };
+		D128189F22BDFED500470AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12818A422BDFED500470AA4 /* RETORONITYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETORONITYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12818A822BDFED500470AA4 /* RETONITYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETONITYUITests.swift; sourceTree = "<group>"; };
+		D12818AA22BDFED500470AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B69EC122BEA178000D998B /* CustomInfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInfoWindow.xib; sourceTree = "<group>"; };
+		D1D5718522BEB474009194F3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D1D5718722BEB812009194F3 /* CustomInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInfoWindow.swift; sourceTree = "<group>"; };
+		D1E1939F22BECACE002333AC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		D1E193A022BECACE002333AC /* Bladefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bladefile; sourceTree = "<group>"; };
+		D1E193A122BECACE002333AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D1E193A322BECACE002333AC /* logo1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1024.png; sourceTree = "<group>"; };
+		D1E193A822BEE4E1002333AC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D128188222BDFED300470AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E193A922BEE4E1002333AC /* MapKit.framework in Frameworks */,
+				3679ED75F58BDE645F986C43 /* libPods-RETONITY.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D128189622BDFED500470AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12818A122BDFED500470AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CDC9F783E113C28E13ACF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1E193A822BEE4E1002333AC /* MapKit.framework */,
+				25C6468B695B7F878255D744 /* libPods-RETONITY.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64CC0C5E37B917BD4F7F3026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B68BF91C11312AD7B0E0319 /* Pods-RETONITY.debug.xcconfig */,
+				84CD0A97AF13A7B1A6EEE8BE /* Pods-RETONITY.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D128187C22BDFED300470AA4 = {
+			isa = PBXGroup;
+			children = (
+				D128188722BDFED300470AA4 /* RETORONITY */,
+				D128189C22BDFED500470AA4 /* RETONITYTests */,
+				D12818A722BDFED500470AA4 /* RETONITYUITests */,
+				D128188622BDFED300470AA4 /* Products */,
+				64CC0C5E37B917BD4F7F3026 /* Pods */,
+				2CDC9F783E113C28E13ACF98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D128188622BDFED300470AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D128188522BDFED300470AA4 /* RETORONITY.app */,
+				D128189922BDFED500470AA4 /* RETORONITYTests.xctest */,
+				D12818A422BDFED500470AA4 /* RETORONITYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D128188722BDFED300470AA4 /* RETORONITY */ = {
+			isa = PBXGroup;
+			children = (
+				D128188822BDFED300470AA4 /* AppDelegate.swift */,
+				D128188A22BDFED300470AA4 /* ViewController.swift */,
+				D1B69EC122BEA178000D998B /* CustomInfoWindow.xib */,
+				D1D5718722BEB812009194F3 /* CustomInfoWindow.swift */,
+				D128188C22BDFED300470AA4 /* Main.storyboard */,
+				D128189122BDFED500470AA4 /* LaunchScreen.storyboard */,
+				D1D5718522BEB474009194F3 /* FirstViewController.swift */,
+				D1E1939E22BECACE002333AC /* shared */,
+				D128188F22BDFED500470AA4 /* Assets.xcassets */,
+				D128189422BDFED500470AA4 /* Info.plist */,
+			);
+			path = RETORONITY;
+			sourceTree = "<group>";
+		};
+		D128189C22BDFED500470AA4 /* RETONITYTests */ = {
+			isa = PBXGroup;
+			children = (
+				D128189D22BDFED500470AA4 /* RETONITYTests.swift */,
+				D128189F22BDFED500470AA4 /* Info.plist */,
+			);
+			path = RETONITYTests;
+			sourceTree = "<group>";
+		};
+		D12818A722BDFED500470AA4 /* RETONITYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D12818A822BDFED500470AA4 /* RETONITYUITests.swift */,
+				D12818AA22BDFED500470AA4 /* Info.plist */,
+			);
+			path = RETONITYUITests;
+			sourceTree = "<group>";
+		};
+		D1E1939E22BECACE002333AC /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1939F22BECACE002333AC /* LaunchScreen.xib */,
+				D1E193A022BECACE002333AC /* Bladefile */,
+				D1E193A122BECACE002333AC /* Images.xcassets */,
+				D1E193A222BECACE002333AC /* assets */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		D1E193A222BECACE002333AC /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D1E193A322BECACE002333AC /* logo1024.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D128188422BDFED300470AA4 /* RETORONITY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12818AD22BDFED500470AA4 /* Build configuration list for PBXNativeTarget "RETORONITY" */;
+			buildPhases = (
+				A79B7751B832863EFDEE1170 /* [CP] Check Pods Manifest.lock */,
+				D128188122BDFED300470AA4 /* Sources */,
+				D128188222BDFED300470AA4 /* Frameworks */,
+				D128188322BDFED300470AA4 /* Resources */,
+				C8EE693DDF4A4C8F1E1EC8C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RETORONITY;
+			productName = RETONITY;
+			productReference = D128188522BDFED300470AA4 /* RETORONITY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D128189822BDFED500470AA4 /* RETORONITYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12818B022BDFED500470AA4 /* Build configuration list for PBXNativeTarget "RETORONITYTests" */;
+			buildPhases = (
+				D128189522BDFED500470AA4 /* Sources */,
+				D128189622BDFED500470AA4 /* Frameworks */,
+				D128189722BDFED500470AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D128189B22BDFED500470AA4 /* PBXTargetDependency */,
+			);
+			name = RETORONITYTests;
+			productName = RETONITYTests;
+			productReference = D128189922BDFED500470AA4 /* RETORONITYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D12818A322BDFED500470AA4 /* RETORONITYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12818B322BDFED500470AA4 /* Build configuration list for PBXNativeTarget "RETORONITYUITests" */;
+			buildPhases = (
+				D12818A022BDFED500470AA4 /* Sources */,
+				D12818A122BDFED500470AA4 /* Frameworks */,
+				D12818A222BDFED500470AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12818A622BDFED500470AA4 /* PBXTargetDependency */,
+			);
+			name = RETORONITYUITests;
+			productName = RETONITYUITests;
+			productReference = D12818A422BDFED500470AA4 /* RETORONITYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D128187D22BDFED300470AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yushi Nakaya";
+				TargetAttributes = {
+					D128188422BDFED300470AA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D128189822BDFED500470AA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D128188422BDFED300470AA4;
+					};
+					D12818A322BDFED500470AA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D128188422BDFED300470AA4;
+					};
+				};
+			};
+			buildConfigurationList = D128188022BDFED300470AA4 /* Build configuration list for PBXProject "RETORONITY" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D128187C22BDFED300470AA4;
+			productRefGroup = D128188622BDFED300470AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D128188422BDFED300470AA4 /* RETORONITY */,
+				D128189822BDFED500470AA4 /* RETORONITYTests */,
+				D12818A322BDFED500470AA4 /* RETORONITYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D128188322BDFED300470AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E193A422BECACE002333AC /* LaunchScreen.xib in Resources */,
+				D1B69EC222BEA178000D998B /* CustomInfoWindow.xib in Resources */,
+				D1E193A622BECACE002333AC /* Images.xcassets in Resources */,
+				D128189322BDFED500470AA4 /* LaunchScreen.storyboard in Resources */,
+				D1E193A522BECACE002333AC /* Bladefile in Resources */,
+				D128189022BDFED500470AA4 /* Assets.xcassets in Resources */,
+				D128188E22BDFED300470AA4 /* Main.storyboard in Resources */,
+				D1E193A722BECACE002333AC /* logo1024.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D128189722BDFED500470AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12818A222BDFED500470AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A79B7751B832863EFDEE1170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RETONITY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8EE693DDF4A4C8F1E1EC8C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RETONITY/Pods-RETONITY-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RETONITY/Pods-RETONITY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D128188122BDFED300470AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D5718822BEB812009194F3 /* CustomInfoWindow.swift in Sources */,
+				D1D5718622BEB474009194F3 /* FirstViewController.swift in Sources */,
+				D128188B22BDFED300470AA4 /* ViewController.swift in Sources */,
+				D128188922BDFED300470AA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D128189522BDFED500470AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D128189E22BDFED500470AA4 /* RETONITYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12818A022BDFED500470AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12818A922BDFED500470AA4 /* RETONITYUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D128189B22BDFED500470AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D128188422BDFED300470AA4 /* RETORONITY */;
+			targetProxy = D128189A22BDFED500470AA4 /* PBXContainerItemProxy */;
+		};
+		D12818A622BDFED500470AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D128188422BDFED300470AA4 /* RETORONITY */;
+			targetProxy = D12818A522BDFED500470AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D128188C22BDFED300470AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D128188D22BDFED300470AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D128189122BDFED500470AA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D128189222BDFED500470AA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12818AB22BDFED500470AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12818AC22BDFED500470AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12818AE22BDFED500470AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B68BF91C11312AD7B0E0319 /* Pods-RETONITY.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADMQ4FDVPY;
+				INFOPLIST_FILE = "$(SRCROOT)/RETORONITY/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yushi.RETONITY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D12818AF22BDFED500470AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CD0A97AF13A7B1A6EEE8BE /* Pods-RETONITY.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADMQ4FDVPY;
+				INFOPLIST_FILE = "$(SRCROOT)/RETORONITY/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yushi.RETONITY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D12818B122BDFED500470AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADMQ4FDVPY;
+				INFOPLIST_FILE = RETONITYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yushi.RETONITYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RETORONITY.app/RETORONITY";
+			};
+			name = Debug;
+		};
+		D12818B222BDFED500470AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADMQ4FDVPY;
+				INFOPLIST_FILE = RETONITYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yushi.RETONITYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RETORONITY.app/RETORONITY";
+			};
+			name = Release;
+		};
+		D12818B422BDFED500470AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADMQ4FDVPY;
+				INFOPLIST_FILE = RETONITYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yushi.RETONITYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RETONITY;
+			};
+			name = Debug;
+		};
+		D12818B522BDFED500470AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADMQ4FDVPY;
+				INFOPLIST_FILE = RETONITYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yushi.RETONITYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RETONITY;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D128188022BDFED300470AA4 /* Build configuration list for PBXProject "RETORONITY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12818AB22BDFED500470AA4 /* Debug */,
+				D12818AC22BDFED500470AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12818AD22BDFED500470AA4 /* Build configuration list for PBXNativeTarget "RETORONITY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12818AE22BDFED500470AA4 /* Debug */,
+				D12818AF22BDFED500470AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12818B022BDFED500470AA4 /* Build configuration list for PBXNativeTarget "RETORONITYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12818B122BDFED500470AA4 /* Debug */,
+				D12818B222BDFED500470AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12818B322BDFED500470AA4 /* Build configuration list for PBXNativeTarget "RETORONITYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12818B422BDFED500470AA4 /* Debug */,
+				D12818B522BDFED500470AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D128187D22BDFED300470AA4 /* Project object */;
+}
